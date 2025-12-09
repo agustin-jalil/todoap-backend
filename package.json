@@ -13,7 +13,7 @@
     "medusa"
   ],
   "scripts": {
-    "build": "medusa build",
+    "build": "medusa migrations run",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "medusa start --port $PORT",
     "dev": "medusa develop",
