@@ -1,3 +1,8 @@
+export function register() {
+  // Instrumentation disabled, but function required by Medusa.
+}
+
+
 // Uncomment this file to enable instrumentation and observability using OpenTelemetry
 // Refer to the docs for installation instructions: https://docs.medusajs.com/learn/debugging-and-testing/instrumentation
 
