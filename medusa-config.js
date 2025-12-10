@@ -16,8 +16,5 @@ export default defineConfig({
       port: 9000,
     },
   },
-  admin: {
-    disable: false,
-  },
   plugins: [],
 })
