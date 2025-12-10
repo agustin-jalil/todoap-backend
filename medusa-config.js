@@ -1,4 +1,5 @@
 import { loadEnv, defineConfig } from "@medusajs/framework/utils"
+import "./src/instrumentation"
 
 loadEnv(process.env.NODE_ENV || "development", process.cwd())
 
